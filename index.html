@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.cdnfonts.com/css/the-amazing-spider-man" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/reset.css" />
+  <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="stylesheet" href="src/css/responsivo.css" />
+  <title>Homem-Aranha - Spider-verse</title>
+
+</head>
+
+<body>
+
+  <header class="cabecalho">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Spider-Man_ITSV.png" class="logo" alt="spiderverse" />
+  </header>
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="titulo">Selecione um personagem</h1>
+      <ul class="lista-de-personagens">
+        <li class="personagem selecionado" id="miles" data-name="Miles Morales"
+          data-description="Miles Morales descobre poderes incríveis e explosivos como ataques Venom bioelétricos, poder de camuflagem, truques espetaculares com teia, além de dispositivos e habilidades.">
+          <img src="./src/imagens/card-miles.jpg" alt="Personagem Miles" />
+        </li>
+        <li class="personagem" id="gwen" data-name="Gwen Stacy" data-description="Gwen Stacy é uma adolescente de 15 anos muito gentil, doce, carinhosa e meiga. Ela é extremamente auto-confiante em si, além de confiar nos outros. Sempre está pronta para ajudar os outros.">
+          <img src="./src/imagens/card-gwen.jpg" alt="Personagem Gwen" />
+        </li>
+
+        <li class="personagem" id="jessicadrew" data-name="Jessica Drew" data-description="Sua fisiologia de aranha permite que ela tenha poderes como a habilidade de escalar paredes, superforça, velocidade, durabilidade, agilidade, reflexos e audição.">
+          <img src="./src/imagens/card-jessicadrew.jpg" alt="Personagem Jessica Drew" />
+        </li>
+
+        <li class="personagem" id="peterbparker" data-name="Peter B Parker" data-description="Peter possui força, velocidade e resistência sobre-humanas. Isso o permite levantar até quinze toneladas, mas também exercer uma enorme força sobre as pernas, o fazendo ser capaz de saltar a uma altura de vários andares em um único salto.">
+          <img src="./src/imagens/card-peterbparker.jpg" alt="Personagem Peter B Parker" />
+        </li>
+
+        <li class="personagem" id="peterporker" data-name="Peter Porker" data-description="Peter sofreu uma transformação, manteve todos os seus poderes de aranha, mas assumiu a forma de um porco antropomórfico. Com esses novos poderes, ele adotou o nome da cientista que o mordeu, May Porker, e se tornou o Porco-Aranha! Agora, ele manda os bandidos do Campo de Batalha correndo de volta para casa.">
+          <img src="./src/imagens/card-peterporker.jpg" alt="Personagem Peter Porker" />
+        </li>
+
+        <li class="personagem" id="peniparker" data-name="Peni Parker" data-description="Especialista em furtividade e possivelmente em luta, ela é considerada um gênio no futuro que demonstrou ser extremamente avançado por conta própria, é capaz de hackear efetivamente enquanto leva um tiro, é comparável a ela pai que fez o Spider-Suit, e é capaz de operar o traje que está implícito ser futurista mesmo para seu próprio tempo.">
+          <img src="./src/imagens/card-peniparker.jpg" alt="Personagem Peni Parker" />
+        </li>
+
+        <li class="personagem" id="escarlate" data-name="Aranha Escarlate" data-description="Aranha Escarlate usa um ejetor de teias de diferentes tipos, assim como rastreadores e projéteis que nocauteiam os oponentes. Ele já conseguiu vencer o Homem-Aranha algumas vezes, usando uma vantagem que Venom também tem, que é de não acionar o Sentido de Aranha de Peter">
+          <img src="./src/imagens/card-escarlate.jpg" alt="Personagem Sam Reimi" />
+        </li>
+
+        <li class="personagem" id="noir" data-name="Black Noir" data-description="Black Noir tem velocidade e agilidade sobre-humana, além de habilidades como piloto. No entanto, seu maior dom está na superforça.">
+          <img src="./src/imagens/card-noir.jpg" alt="Personagem Black Noir" />
+        </li>
+      </ul>
+    </section>
+    <section class="personagem-selecionado">
+      <img class="personagem-grande" src="./src/imagens/card-miles.png"
+        alt="Personagem Selecionado" />
+
+      <div class="informacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem">Miles Morales</h2>
+        <p class="descricao-personagem" id="descricao-personagem" style="font-family: Oxanium;">
+          Miles Morales descobre poderes incríveis e explosivos como ataques Venom bioelétricos, poder de camuflagem,
+          truques espetaculares com teia, além de dispositivos e habilidades.
+        </p>
+      </div>
+    </section>
+  </main>
+</body>
+<script src="./src/js/index.js"></script>
+
+</html>
